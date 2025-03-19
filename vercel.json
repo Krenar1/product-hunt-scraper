@@ -1,0 +1,9 @@
+{
+  "crons": [
+    {
+      "path": "/api/cron/sync-scraper-state?secret=CRON_SECRET_VALUE",
+      "schedule": "*/10 * * * *"
+    }
+  ]
+}
+
